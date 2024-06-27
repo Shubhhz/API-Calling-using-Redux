@@ -1,0 +1,45 @@
+body{
+    height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+}
+.app{
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+}
+.app li{
+    width: 100%;
+    background-color: white;
+    margin-bottom: 1rem;
+    padding: 2rem 5rem;
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+    border-radius: 7px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.app button{
+    border: none;
+    outline: none;
+    padding: 3rem 5rem;
+    border-radius: 5%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    font-size: 20px;
+    cursor: pointer;
+    transition:all 0.s ease-in-out;
+
+}
+.app button:hover{
+   
+    
+    transform: scale(0.9);
+    
+    
+}
